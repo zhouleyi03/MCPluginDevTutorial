@@ -1,0 +1,16 @@
+name: LoginPlugin
+version: '${version}'
+main: zhouleyi.loginplugin.LoginPlugin
+api-version: 1.16
+
+commands:
+  login:
+    description: UserLogin Plugin
+    usage: /<command>
+    permission: <plugin name>.basic
+    permission-message: You don't have <permission>
+  register:
+    description: UserLogin Plugin
+    usage: /<command>
+    permission: <plugin name>.basic
+    permission-message: You don't have <permission>
