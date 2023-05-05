@@ -16,7 +16,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.UUID;
-import java.util.stream.StreamSupport;
 
 public final class LoginPlugin extends JavaPlugin implements Listener {
 
